@@ -1,8 +1,5 @@
 package com.url.shortner.entity;
 
-import lombok.Data;
-
-@Data
 public class ShortenUrl {
 	
 	private String full_url;
@@ -23,7 +20,5 @@ public class ShortenUrl {
 	public void setShort_url(String short_url) {
 		this.short_url = short_url;
 	}
-
-
 
 }
